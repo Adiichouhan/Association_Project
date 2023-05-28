@@ -69,13 +69,4 @@ if st.button("Frequent Items"):
   st.success('Apriori has found Frequent itemsets {}'.format(frequent_items))      
 if st.button("About"):
   st.subheader("Developed by Aditya Singh Chouhan")
-html_temp = """
-   <div class="" style="background-color:orange;" >
-   <div class="clearfix">           
-   <div class="col-md-12">
-   <center><p style="font-size:20px;color:white;margin-top:10px;">Machine learning Experiment No. 9</p></center> 
-   </div>
-   </div>
-   </div>
-   """
 st.markdown(html_temp,unsafe_allow_html=True)
